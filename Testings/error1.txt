@@ -7,16 +7,16 @@
             "postgres"
         ],
         "State": {
-            "Status": "exited",
-            "Running": false,
+            "Status": "running",
+            "Running": true,
             "Paused": false,
             "Restarting": false,
             "OOMKilled": false,
             "Dead": false,
-            "Pid": 0,
+            "Pid": 27350,
             "ExitCode": 0,
             "Error": "",
-            "StartedAt": "2024-01-17T05:51:13.784891259Z",
+            "StartedAt": "2024-01-17T07:26:48.326349755Z",
             "FinishedAt": "2024-01-17T07:20:22.55068881Z"
         },
         "Image": "sha256:9e14840c02bd1e9fcc7f807ed38eb88e599cbbec57ed4cea91a3b5f396c139b9",
@@ -203,12 +203,23 @@
         },
         "NetworkSettings": {
             "Bridge": "",
-            "SandboxID": "e2de09257fcdef92ab7c38899e07137221a0d2c48eafea2f0d0db4abaadf3964",
+            "SandboxID": "bec0c031658706b8ba5b6396e839c0829cb8652fb20105c9fbba94da7248fe22",
             "HairpinMode": false,
             "LinkLocalIPv6Address": "",
             "LinkLocalIPv6PrefixLen": 0,
-            "Ports": {},
-            "SandboxKey": "/run/snap.docker/netns/e2de09257fcd",
+            "Ports": {
+                "5432/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "5438"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "5438"
+                    }
+                ]
+            },
+            "SandboxKey": "/run/snap.docker/netns/bec0c0316587",
             "SecondaryIPAddresses": null,
             "SecondaryIPv6Addresses": null,
             "EndpointID": "",
@@ -228,14 +239,14 @@
                         "4934e5863936"
                     ],
                     "NetworkID": "ad7b2f4642b4ee7a519218f1327bac9caab00c91c34c5f5d96b39687149a9e52",
-                    "EndpointID": "",
-                    "Gateway": "",
-                    "IPAddress": "",
-                    "IPPrefixLen": 0,
+                    "EndpointID": "80089c3ea15cc4a55917fc548ed0e206a3c92dac67788294bb3ada1be58cbae3",
+                    "Gateway": "172.31.0.1",
+                    "IPAddress": "172.31.0.2",
+                    "IPPrefixLen": 16,
                     "IPv6Gateway": "",
                     "GlobalIPv6Address": "",
                     "GlobalIPv6PrefixLen": 0,
-                    "MacAddress": "",
+                    "MacAddress": "02:42:ac:1f:00:02",
                     "DriverOpts": null
                 }
             }
