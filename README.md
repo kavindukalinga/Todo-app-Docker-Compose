@@ -26,3 +26,9 @@ python3 manage.py makemigrations todos
 python3 manage.py sqlmigrate todos xxx
 python3 manage.py migrate
 ```
+
+### Port settings
+```bash
+sudo lsof -i :5432
+sudo kill -9 1380
+```
