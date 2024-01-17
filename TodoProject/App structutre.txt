@@ -1,0 +1,20 @@
+TodoProject
+.   todos (app folder)
+.   .   migrations
+.   .   static
+.   .   .   todos
+.   .   .   .   styles.css
+.   .   templates
+.   .   .   todo
+.   .   .   .   todo_list.html
+.   .   models.py (python clz for each database table)
+.   .   urls.py (app specific url mappings)
+.   .   views.py (view functions to handle http req)
+.   TodoProject
+.   .   settings.py (project config files)
+.   .   urls.py (url mapping for the project)  
+
+
+
+# Using
+ORM - Object Relational Mapping 

@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+    kkwebapp:
+      build: .
+      command: python3 manage.py runserver 0.0.0.0:8000
+      ports:
+        - 8000:8000
+      depends_on:
+        - pgdb1
+    pgdb1:
+      build:
+        context: .
+        dockerfile: pgdb1/Dockerfile
+      container_name: pgdb1
+      ports:
+        - 5435:5432
