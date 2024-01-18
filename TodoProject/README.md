@@ -1,9 +1,11 @@
 ## Docker-compose project
+- Title: Todo - Task writing App
+- Author: Kavindu Kalinga
 - Languages: `python3` , `HTML`
 - Framework: `Django`
 - Databse: `postgreSQL`
-- Cintainerization tools and APIs: `Docker`  
-
+- Cintainerization tools and APIs: `Docker`
+- Reference: YouTube: [Build Django To-Do App with PostgreSQL](https://youtu.be/Nnoxz9JGdLU?si=s_GEqClwIGInNs9i)    
 
 ### CMD
 ```docker
@@ -26,3 +28,7 @@ docker images | head
 | ---------------------------------- | ------- | -------------- | ---------------- | ------ |
 | todoproject_kkwebapp               | latest  | #------------# | 33 minutes ago   | 1.08GB |
 | todoproject_pgdb1                  | latest  | #------------# | 33 minutes ago   | 412MB  |
+
+```
+docker ps -a
+```
