@@ -5,7 +5,7 @@
 - Framework: `Flask`
 - Databse: `postgreSQL`
 - Cintainerization tools and APIs: `Docker`
-- Reference: [YouTube:Flask app with PostgreSQL](https://www.youtube.com/watch?v=XZ_gAWdGzZk)  
+- Reference: YouTube: [Flask app with PostgreSQL](https://www.youtube.com/watch?v=XZ_gAWdGzZk)  
 
 
 ### CMD
