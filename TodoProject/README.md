@@ -18,3 +18,11 @@ python3 manage.py makemigrations todos
 python3 manage.py sqlmigrate todos xxx
 python3 manage.py migrate
 ```
+### Verification:
+```
+docker images | head
+```
+| REPOSITORY                         | TAG     | IMAGE ID       | CREATED          | SIZE   |
+| ---------------------------------- | ------- | -------------- | ---------------- | ------ |
+| todoproject_kkwebapp               | latest  | #------------# | 33 minutes ago   | 1.08GB |
+| todoproject_pgdb1                  | latest  | #------------# | 33 minutes ago   | 412MB  |
