@@ -4,7 +4,7 @@ This repo contains two apps
 2. Hogwarts registration App
 created using python frameworks
 - Django
-- Flask
+- Flask  
 using postgreSQL as the database and
 containerized using Docker and Docker-compose.
  
