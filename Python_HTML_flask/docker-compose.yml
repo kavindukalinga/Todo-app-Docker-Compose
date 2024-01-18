@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+    hogwartzwebapp:
+      build: .
+      command: python ./app.py
+      ports:
+        - 5000:5000
+      depends_on:
+        - pgdb2
+    pgdb2:
+      build:
+        context: .
+        dockerfile: pgdb2/Dockerfile
+      container_name: pgdb2
+      ports:
+        - 5434:5432
