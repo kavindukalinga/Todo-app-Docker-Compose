@@ -15,6 +15,6 @@ docker images | head
 ```
 | REPOSITORY                         | TAG     | IMAGE ID       | CREATED          | SIZE   |
 | ---------------------------------- | ------- | -------------- | ---------------- | ------ |
-| python_html_flask_hogwartzwebapp   | latest  | ea0e6d3940ac   | 33 minutes ago   | 98.2MB |
-| python_html_flask_pgdb2            | latest  | 156c1277930e   | 33 minutes ago   | 412MB  |
+| python_html_flask_hogwartzwebapp   | latest  | #------------# | 33 minutes ago   | 98.2MB |
+| python_html_flask_pgdb2            | latest  | #------------# | 33 minutes ago   | 412MB  |
 
