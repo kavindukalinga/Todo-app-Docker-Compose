@@ -1,6 +1,13 @@
-# Todo-app-Docker-Compose
-This repo contains a Todo App created using python frameworks and containerized using Docker and Docker-compose
-
+# Docker-Compose Example Projecs
+This repo contains two apps  
+1. Todo App
+2. Hogwarts registration App
+created using python frameworks
+- Django
+- Flask
+using postgreSQL as the database and
+containerized using Docker and Docker-compose.
+ 
 
 ```docker
 docker-compose run kkwebapp python3 manage.py migrate
