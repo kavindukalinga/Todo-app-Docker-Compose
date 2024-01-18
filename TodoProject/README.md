@@ -1,5 +1,6 @@
 ## Docker-compose project
 - Languages: `python3` , `HTML`
+- Framework: `Django`
 - Databse: `postgreSQL`
 - Cintainerization tools and APIs: `Docker`  
 
