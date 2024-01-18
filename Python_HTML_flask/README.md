@@ -4,7 +4,7 @@
 - Languages: `python3` , `HTML`
 - Framework: `Flask`
 - Databse: `postgreSQL`
-- Cintainerization tools and APIs: `Docker`
+- Containerization tools and APIs: `Docker`
 - Reference: YouTube: [Flask app with PostgreSQL](https://www.youtube.com/watch?v=XZ_gAWdGzZk)  
 
 
