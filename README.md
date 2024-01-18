@@ -1,6 +1,6 @@
 # Docker-Compose Example Projecs
 This repo contains two apps  
-1. Todo App
+1. [Todo App](https://github.com/kavindukalinga/Todo-app-Docker-Compose/tree/main/TodoProject)
 2. [Hogwarts registration App](https://github.com/kavindukalinga/Todo-app-Docker-Compose/tree/main/Python_HTML_flask)
 
 created using python frameworks
