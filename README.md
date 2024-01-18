@@ -2,6 +2,7 @@
 This repo contains two apps  
 1. Todo App
 2. Hogwarts registration App
+
 created using python frameworks
 - `Django`
 - `Flask`  
