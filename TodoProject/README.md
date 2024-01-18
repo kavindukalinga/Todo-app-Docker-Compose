@@ -4,7 +4,7 @@
 - Languages: `python3` , `HTML`
 - Framework: `Django`
 - Databse: `postgreSQL`
-- Cintainerization tools and APIs: `Docker`
+- Containerization tools and APIs: `Docker`
 - Reference: YouTube: [Build Django To-Do App with PostgreSQL](https://youtu.be/Nnoxz9JGdLU?si=s_GEqClwIGInNs9i)    
 
 ### CMD
