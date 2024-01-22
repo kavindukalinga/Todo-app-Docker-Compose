@@ -6,9 +6,10 @@
 - Databse: `postgreSQL`
 - Containerization tools and APIs: `Docker`
 - Reference:
-- - YouTube: [Build Django To-Do App with PostgreSQL](https://youtu.be/Nnoxz9JGdLU?si=s_GEqClwIGInNs9i)
-  - YouTube: [Docker volumes](https://www.youtube.com/watch?v=eJrR1X38pk4)
-  - YouTube: [Pagination](https://www.youtube.com/watch?v=N-PB-HMFmdo)    
+- - YouTube:
+  - - [Build Django To-Do App with PostgreSQL](https://youtu.be/Nnoxz9JGdLU?si=s_GEqClwIGInNs9i)
+    - [Docker volumes](https://www.youtube.com/watch?v=eJrR1X38pk4)
+    - [Pagination](https://www.youtube.com/watch?v=N-PB-HMFmdo)    
 
 ### CMD
 ```docker
