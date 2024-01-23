@@ -6,6 +6,8 @@ services:
       command: python ./app.py
       ports:
         - 5000:5000
+      volumes:
+        - .:/app
       depends_on:
         - pgdb2
     pgdb2:
@@ -15,3 +17,8 @@ services:
       container_name: pgdb2
       ports:
         - 5434:5432
+      volumes:
+        - pgdata2:/var/lib/postgresql/data
+
+volumes:
+  pgdata2:

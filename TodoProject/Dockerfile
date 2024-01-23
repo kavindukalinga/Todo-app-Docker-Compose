@@ -2,11 +2,11 @@ FROM python:3
 
 ENV PYTHONUNBUFFERED 1
 
-WORKDIR /
+WORKDIR /app
 
 EXPOSE 8000
 
-ADD . /
+ADD . /app
 
 RUN pip install -r requirements.txt
 
