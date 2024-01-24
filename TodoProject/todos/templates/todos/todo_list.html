@@ -18,7 +18,7 @@
             <div class="col -md-8 offset-md-2">
                 <div class="card">
                     <div class="card-header shadow-sm bg-white">
-                        <h1 class="display-8 text-info"> ✔ ToDo List :</i></h1>
+                        <h1 class="display-8 text-info"> ✔ ToDo List:</i></h1>
                     </div>
                     <div class="card-body">
                         <ul class="list-group">
@@ -39,7 +39,7 @@
                                 </form>
                                 
                             </li>
-                            {% for todo in todo_list %}
+                            {% for todo in contexts %}
                             <li class="list-group-item">
                                 {{todo.content}}
 
@@ -58,6 +58,26 @@
                             </li>
                             {% endfor %}
                         </ul>
+                        <hr>
+                        {% if contexts.has_previous %}
+                        <a href="?page=1">&laquo First</a>
+                        <a href="?page={{contexts.previous_page_number}}">Previous</a>
+                        {% endif %}
+                        <!-- 
+                        {% for i in contexts.paginator.page_range %}
+                        {% if contexts.number == i %}
+                        <a href="?page={{i}}" class="font-weight-bold">{{i}}</a>
+                        {% else %}
+                        <a href="?page={{i}}">{{i}}</a>
+                        {% endif %}
+                        {% endfor %}
+                        -->
+                        Page {{contexts.number}} of {{contexts.paginator.num_pages}}
+                        {% if contexts.has_next %}
+                        <a href="?page={{contexts.next_page_number}}">Next</a>
+                        <a href="?page={{contexts.paginator.num_pages}}">Last &raquo</a>
+                        {% endif %}
+
                     </div>
                 </div>
             </div>
