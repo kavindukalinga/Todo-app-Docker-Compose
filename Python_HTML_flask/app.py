@@ -27,9 +27,12 @@ with app.app_context():
 
 @app.route('/')
 def index():
-    all_students = Student.query.all()
-    return render_template('index.html', students=all_students)
-
+    try:
+        page= request.args.get('page',1,type=int)
+        all_students = Student.query.order_by(-(Student.id)).paginate(page=page,per_page=3)
+        return render_template('index.html', students=all_students)
+    except Exception as e:
+        return render_template('error.html', error=e)
 
 @app.route('/submit', methods=['POST'])
 def submit():
